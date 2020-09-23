@@ -1,0 +1,12 @@
+<html>
+  <script>
+    var setColor = function () {
+      var col = ["red", "green", "blue"];
+      var num = Math.floor(Math.random() * 3);
+      var s = `<body bgcolor=  ${col[num]} >`;
+      document.write(s);
+      document.write("<h1>Hello World</h1>");
+    };
+    window.onload = setColor;
+  </script>
+</html>
