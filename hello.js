@@ -1,8 +1,3 @@
-const  hello = function(t){
-   return "Hello " + t;
-}
-console.log(hello('World'))
+const hello = (t) => "Hello " + t;
+console.log(hello("World"));
 exports.hello = hello;
-
-
- 
