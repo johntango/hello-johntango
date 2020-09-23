@@ -4,8 +4,8 @@
       "name": "hellotest",
       "setup": "npm install",
       "run": "npm test",
-      "input": "",
-      "output": "",
+      "input": "World",
+      "output": "Hello World",
       "comparison": "included",
       "timeout": 10,
       "points": 10
