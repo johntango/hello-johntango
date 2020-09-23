@@ -5,10 +5,10 @@
       "setup": "npm install",
       "run": "npm test",
       "input": "World",
-      "output": "Hello World",
+      "output": "Hello-World",
       "comparison": "included",
       "timeout": 10,
-      "points": 10
+      "points": 9
     }
   ]
 }
